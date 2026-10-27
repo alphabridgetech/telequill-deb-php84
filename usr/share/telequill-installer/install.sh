@@ -32,7 +32,7 @@ fi
 
 if [ -d "/opt/Telequill_installed_php84/.git" ]; then
     step "Pulling latest changes in /opt/Telequill_installed_php84"
-    sudo git -C /opt/Telequill_Install pull --rebase
+    sudo git -C /opt/Telequill_installed_php84 pull --rebase
 else
     step "Cloning Telequill_installed_php84 repository"
     sudo rm -rf /opt/Telequill_installed_php84
