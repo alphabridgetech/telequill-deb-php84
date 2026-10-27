@@ -44,7 +44,7 @@ cd /opt/Telequill_installed_php84
 sudo docker build -t my-librenms .
 
 step "Starting containers with docker compose"
-cd /opt/Telequill_Install/examples/compose
+cd /opt/Telequill_installed_php84/examples/compose
 sudo docker compose -f compose.yml up -d
 
 whiptail --title "Telequill NMS" --msgbox "🎉 Installation and deployment complete." 12 60
